@@ -1,0 +1,102 @@
+h1 {
+    text-align: center;
+    font-family: Bahnschrift;
+    text-decoration: underline;
+    font-size: 60px;
+    color: white;
+}
+h2{
+    text-align: center;
+    font-family: bahnschrift condensed;
+    font-size: 40px;
+    color: white;
+}
+h3{
+    width: 500px;
+    font-size: 25px;
+    margin-left: 300px;
+    margin-top: -420px;
+    color: white;
+    font-family: bahnschrift condensed;
+    
+}
+#kukirin{
+    width: 800px;
+    margin-left: 00px;
+    margin-top: -100px;
+}
+body{
+    background-image: url("802afe52-6752-4626-ac92-24c8aab3051b.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+#xiaomi{
+    width: 800px;
+    margin-left: 1000px;
+    margin-top: 150px;
+    transform: scaleX(-1)
+}
+h4{
+    width: 500px;
+    font-size: 25px;
+    margin-left: 950px;
+    margin-top: -450px;
+    color: white;
+    font-family: bahnschrift condensed;
+}
+#dualtron{
+    width: 600px;
+    margin-left: 00px;
+    margin-top: 100px;
+}
+h5{
+    width: 500px;
+    font-size: 25px;
+    margin-left: 250px;
+    margin-top: -650px;
+    color: white;
+    font-family: bahnschrift condensed;
+}
+        @keyframes appear{
+            from{
+                opacity: 0;
+                scale: 0.5;
+            }
+            to{
+                opacity: 1;
+                scale: 1;
+            }
+        }
+.kukirin {
+            animation: appear linear;
+            animation-timeline: view();
+            animation-range: entry 0 cover 40%;
+        }
+.h3 {
+            animation: appear linear;
+            animation-timeline: view();
+            animation-range: entry 0 cover 40%;
+        }
+.xiaomi {
+            animation: appear linear;
+            animation-timeline: view();
+            animation-range: entry 0 cover 40%;
+        }
+.h4 {
+            animation: appear linear;
+            animation-timeline: view();
+            animation-range: entry 0 cover 40%;
+        }
+.dualtron {
+            animation: appear linear;
+            animation-timeline: view();
+            animation-range: entry 0 cover 40%;
+        }
+.h5 {
+            animation: appear linear;
+            animation-timeline: view();
+            animation-range: entry 0 cover 40%;
+        }
